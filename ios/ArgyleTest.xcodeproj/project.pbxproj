@@ -210,7 +210,6 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				B131C96AA19895E7CF057872 /* [CP] Embed Pods Frameworks */,
-				79FA5D8E7051661FF65BF1CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +232,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				CDDA1D311F504407639D70E7 /* [CP] Embed Pods Frameworks */,
-				8F8EB11F80CA1B0CC78E57E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -415,38 +413,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		79FA5D8E7051661FF65BF1CB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ArgyleTest-ArgyleTestTests/Pods-ArgyleTest-ArgyleTestTests-resources.sh",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MiniNotificationViewController.xib",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MPCloseButton.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MPCloseButton@2x.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MPCloseButton@3x.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/placeholder-image.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/TakeoverNotificationViewController~ipad.xib",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/TakeoverNotificationViewController~iphonelandscape.xib",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/TakeoverNotificationViewController~iphoneportrait.xib",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MiniNotificationViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder-image.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TakeoverNotificationViewController~ipad.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TakeoverNotificationViewController~iphonelandscape.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TakeoverNotificationViewController~iphoneportrait.nib",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArgyleTest-ArgyleTestTests/Pods-ArgyleTest-ArgyleTestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8B3F4422E62B3F74DC891A6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,38 +433,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F8EB11F80CA1B0CC78E57E3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ArgyleTest/Pods-ArgyleTest-resources.sh",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MiniNotificationViewController.xib",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MPCloseButton.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MPCloseButton@2x.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/MPCloseButton@3x.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/placeholder-image.png",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/TakeoverNotificationViewController~ipad.xib",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/TakeoverNotificationViewController~iphonelandscape.xib",
-				"${PODS_ROOT}/Mixpanel-swift/Mixpanel/TakeoverNotificationViewController~iphoneportrait.xib",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MiniNotificationViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder-image.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TakeoverNotificationViewController~ipad.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TakeoverNotificationViewController~iphonelandscape.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TakeoverNotificationViewController~iphoneportrait.nib",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArgyleTest/Pods-ArgyleTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9D29C5633AC7D1EDCC58570D /* [CP] Check Pods Manifest.lock */ = {
@@ -531,10 +465,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ArgyleTest-ArgyleTestTests/Pods-ArgyleTest-ArgyleTestTests-frameworks.sh",
 				"${PODS_ROOT}/Argyle/Argyle.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Argyle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -549,10 +485,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ArgyleTest/Pods-ArgyleTest-frameworks.sh",
 				"${PODS_ROOT}/Argyle/Argyle.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Argyle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
